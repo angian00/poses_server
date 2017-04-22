@@ -45,6 +45,11 @@ if __name__ == "__main__":
     print '<body>'
     print '<img src="%s">' % filename
 
+    print '<div id="timerLinks">'
+    print '<a href="?time=30" class="timer-link">30 sec pose</a>'
+    print '<a href="?time=120" class="timer-link">2min pose</a>'
+    print '</div>'
+
     print '<div id="timeText" />'
     print '<script>startCountdown()</script>'
 

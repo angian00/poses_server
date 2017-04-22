@@ -38,10 +38,16 @@ if __name__ == "__main__":
     print '<html>'
     print '<head>'
     print '<title>Random pose generator</title>'
+    print '<link rel="stylesheet" type="text/css" href="/mystyle.css">'
+    print '<script src="/js/myscript.js" type="text/javascript"></script>'
     print '</head>'
 
     print '<body>'
     print '<img src="%s">' % filename
+
+    print '<div id="timeText" />'
+    print '<script>startCountdown()</script>'
+
     print '</body>'
     print '</html>'
 

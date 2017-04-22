@@ -5,5 +5,4 @@ A very simple Python cgi-bin server producing random images from data/ subfolder
 
 # TODO
 - supportare tipi di file multipli
-- pulsanti temporizzazione
 - scrivere nome file in sovraimpressione

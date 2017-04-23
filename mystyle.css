@@ -32,10 +32,13 @@
 }
 
 
-.blinking {
-  animation: blinker 1s linear infinite;
-  color: red !important;
-  font-size: 72px !important;
+#timeText.blinking {
+	animation: blinker 1s linear infinite;
+	color: red;
+	font-size: 72px;
+	width: 100%;
+	text-align: center;
+    bottom: 50%;
 }
 
 @keyframes blinker {  
